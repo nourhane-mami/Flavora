@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>
+   Club Manager Dashboard | Flavora
+  </title>
+  <link href="style.css" rel="stylesheet">
+  <script src="theme.js"></script>
+ </head>
+ <body>
+  <header class="bar">
+   <a class="brand" href="index.html">
+    <img alt="Flavora logo" src="images/flavora-logo.jpg">
+    Flavora
+   </a>
+   <nav aria-label="Main" class="menu">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="offerings.html">
+     Offerings
+    </a>
+    <a href="about.html">
+     About
+    </a>
+    <div class="account">
+     <div class="acc-top">
+      <svg aria-hidden="true" fill="none" height="38" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" width="38">
+       <circle cx="12" cy="12" r="10.5">
+       </circle>
+       <circle cx="12" cy="9.5" r="3.6">
+       </circle>
+       <path d="M5 19c1.6-3.2 4.2-4.6 7-4.6s5.4 1.4 7 4.6">
+       </path>
+      </svg>
+      <svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="22">
+       <circle cx="12" cy="12" r="10">
+       </circle>
+       <path d="M8 10.5l4 4 4-4">
+       </path>
+      </svg>
+     </div>
+     <div class="acc-links">
+      <a aria-current="page" href="manager-dashboard.html">
+       Manager Dashboard
+      </a>
+      <a href="member-dashboard.html">
+       Member Dashboard
+      </a>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <main class="inner">
+   <h1>
+    Club Manager Dashboard
+   </h1>
+   <p>
+    <strong>
+     Welcome back!
+    </strong>
+   </p>
+   <div class="stats">
+    <div>
+     <span>
+      Offerings
+     </span>
+	  <hr>
+     <strong>
+      0
+     </strong>
+    </div>
+    <div>
+     <span>
+      Instructors
+     </span>
+	  <hr>
+     <strong>
+      9
+     </strong>
+    </div>
+    <div>
+     <span>
+      Members 
+     </span>
+	  <hr>
+     <strong>
+      150
+     </strong>
+    </div>
+    <div>
+     <span>
+      Pending Requests  
+     </span>
+	  <hr>
+     <strong>
+      2
+     </strong>
+    </div>
+   </div>
+   <h2>
+    Quick Actions
+   </h2>
+   <div class="links">
+    <a class="btn" href="add-offering.html">
+     Add a New Offering
+    </a>
+    <a class="btn" href="manage-instructors.html">
+     Manage Activity Leaders and Instructors
+    </a>
+   </div>
+   <section>
+    <h2>
+     Offerings
+    </h2>
+    <table class="data">
+     <tr>
+      <th>
+       Offering
+      </th>
+      <th>
+       Instructor
+      </th>
+      <th>
+       Date
+      </th>
+      <th>
+       Price
+      </th>
+     </tr>
+    </table>
+   </section>
+
+   <section>
+    <h2>
+     Pending Participation Requests
+    </h2>
+    <table class="data pending">
+     <tr>
+      <th>
+       Member
+      </th>
+      <th>
+       Offering
+      </th>
+      <th>
+       Date
+      </th>
+      <th>
+       Requested
+      </th>
+      <th>
+       Status
+      </th>
+     </tr>
+     <tr>
+      <td>
+       <strong>
+        Hala Maria
+       </strong>
+      </td>
+      <td>
+       Italian Cooking Workshop
+      </td>
+      <td>
+       Nov 10
+      </td>
+      <td>
+       Sep 24
+      </td>
+      <td>
+        <button class="small" type="button">
+        ✓ Accept
+       </button>
+        <br>
+       <button class="small alt" type="button">
+        ✕ Reject
+       </button>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <strong>
+        Sara Layan
+       </strong>
+      </td>
+      <td>
+       Sushi Workshop
+      </td>
+      <td>
+       Jan 15
+      </td>
+      <td>
+       Sep 25
+      </td>
+            <td>
+        <button class="small" type="button">
+        ✓ Accept
+       </button>
+        <br>
+       <button class="small alt" type="button">
+        ✕ Reject
+       </button>
+      </td>
+     </tr>
+    </table>
+   </section>
+  </main>
+  <footer class="bar foot">
+   <div class="fl">
+    <img alt="Flavora logo" src="images/flavora-logo.jpg">
+    <p>
+     © 2026 Flavora.
+     <br>
+     All rights reserved.
+    </p>
+   </div>
+   <div class="fr">
+    <p class="flinks">
+     <a href="about.html">
+      About Us
+     </a>
+     |
+     <a href="index.html#contact">
+      Contact Us
+     </a>
+    </p>
+    <p>
+     Email:
+     <a href="mailto:contact@flavora.com">
+      contact@flavora.com
+     </a>
+    </p>
+    <p>
+     Phone:
+     <a href="tel:+966561111111">
+      +966 561111111
+     </a>
+    </p>
+    <div class="social">
+     <span>
+      Follow Us
+     </span>
+     <a aria-label="Instagram" href="#">
+      <svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18">
+       <rect height="18" rx="5" width="18" x="3" y="3">
+       </rect>
+       <circle cx="12" cy="12" r="4">
+       </circle>
+       <circle cx="17.2" cy="6.8" fill="currentColor" r="1">
+       </circle>
+      </svg>
+     </a>
+     <a aria-label="X" href="#">
+      <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2.4" viewbox="0 0 24 24" width="16">
+       <path d="M4 4l16 16M20 4L4 20">
+       </path>
+      </svg>
+     </a>
+     <a aria-label="YouTube" href="#">
+      <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20">
+       <rect height="13" rx="4" width="19" x="2.5" y="5.5">
+       </rect>
+       <path d="M10 9.5v5l4.5-2.5z" fill="currentColor">
+       </path>
+      </svg>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script src="scripti.js"></script>
+ </body>
+</html>
